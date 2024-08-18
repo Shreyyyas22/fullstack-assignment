@@ -1,27 +1,36 @@
-# Help Center API Assignment
+# Help Center API
 
-## Instructions
+This project is a Help Center API built with Node.js and Express, with a frontend styled using TailwindCSS and React.
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/iAmritMalviya/fullstack-assignment
-   cd fullstack-assignment
-   ```
+## Getting Started
 
-2. **Frontend:**
-   - Create a React app in the `frontend` folder.
-   - Follow the instructions in `frontend.md` to complete the frontend.
+These instructions will help you set up the project locally.
 
-3. **Backend:**
-   - Create a Node.js app in the `backend` folder.
-   - Follow the `backend.md` instructions to complete the backend.
+### Prerequisites
 
-4. **Push Your Work:**
-   - Push both the frontend and backend apps to the same repository.
-   - Make sure the repository is public.
+- Node.js (v14 or later)
+- npm (v6 or later)
 
-5. **Submit Your Work:**
-   - Paste the GitHub repository link in the Google form you received after pushing your code.
+### Installation
 
----
+1. Clone the repository
+2. Install dependencies
+```bash
+npm install
+```
+3. Insert your MongoDB connention string to .env file.
+4. Start the backend server:
+```bash
+npx nodemon index.js
+```
+5. Start the React Frontend:
+```bash
+npm start
+```
+
+API Endpoints
+GET /cards - Retrieve all cards.
+POST /cards - Create a new card.
+GET /cards/:title - Retrieve a specific card by title.
+
 
